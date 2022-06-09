@@ -98,8 +98,6 @@ jobs:
           command: |
             yum install -y tar gzip
       - run:
-      - run:
-      - run:
           name: Add back-end ip to ansible inventory
           command: |
             cd .circleci/ansible \
